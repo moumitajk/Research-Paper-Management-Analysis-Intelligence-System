@@ -82,15 +82,9 @@ research_ai/
 
 ## Usage Instructions
 1. Clone the repository  
-2. Install required dependencies:
-
-pip install -r requirements.txt
-3. Create a `.env` file and add the Groq API key:
-
-GROQ_API_KEY=your_groq_api_key
-4. Run the application:
-
-streamlit run app.py
+2. Install required dependencies: pip install -r requirements.txt
+3. Create a `.env` file and add the Groq API key: GROQ_API_KEY=your_groq_api_key
+4. Run the application: streamlit run app.py
 
 ---
 
