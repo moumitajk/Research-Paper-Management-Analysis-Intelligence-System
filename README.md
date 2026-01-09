@@ -64,19 +64,21 @@ User
 
 ## Project Structure
 research_ai/
-├── app.py
-├── requirements.txt
-├── README.md
+│
+├── app.py                     # Streamlit frontend application
+├── requirements.txt           # Python dependencies
+├── README.md                  # Project documentation
 ├── data/
-│ ├── papers/
-│ └── uploads/
+│   ├── papers/                # Sample research papers (PDFs)
+│   └── uploads/               # User-uploaded PDFs via Streamlit UI
 ├── src/
-│ ├── loader.py
-│ ├── chunker.py
-│ ├── embeddings.py
-│ ├── vector_store.py
-│ └── rag.py
-└── .env
+│   ├── loader.py              # PDF loading and text extraction
+│   ├── chunker.py             # Intelligent text chunking logic
+│   ├── embeddings.py          # Embedding generation module
+│   ├── vector_store.py        # FAISS vector index construction
+│   └── rag.py                 # Retrieval-Augmented Generation (RAG) pipeline
+└── .env                       # Environment variables (API keys)
+
 
 ---
 
